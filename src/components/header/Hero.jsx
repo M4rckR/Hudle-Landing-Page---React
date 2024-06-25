@@ -7,7 +7,7 @@ export const Hero = () => {
             <a className="bg-m-pink border border-transparent text-white hover:text-m-pink hover:bg-white hover:border-m-pink py-2 w-fit px-4 rounded-3xl" href="#">Get Started For Free</a>
         </div>
         <picture className="flex justify-center">
-            <img src="/img/screen-mockups.svg" alt="imagen hero"/>
+            <img className="lg:max-w-[800px]" src="/img/screen-mockups.svg" alt="imagen hero"/>
         </picture>
     </section>
   )

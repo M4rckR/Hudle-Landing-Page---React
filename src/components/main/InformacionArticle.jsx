@@ -4,7 +4,7 @@ export const InformacionArticle = ({title, description,image,wave,styleWave,reve
   return (
     <article>
 
-      {/* Ola numero 1 */}
+      {/* Wave Top */}
       <div className={`${wave===true && styleWave===1? "bg-top-mobile-1" : 
       wave===true && styleWave===2? "bg-top-mobile-2" : null }`}></div>
 
@@ -21,7 +21,7 @@ export const InformacionArticle = ({title, description,image,wave,styleWave,reve
         </div>   
       </div>
   
-
+      {/* Wave Bottom */}
       <div className={`${wave===true && styleWave===1? "bg-bottom-mobile-1" : 
         wave===true && styleWave===2? "bg-bottom-mobile-2" : null}`}></div>
     </article>

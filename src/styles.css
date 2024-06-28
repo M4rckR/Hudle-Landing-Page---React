@@ -16,15 +16,22 @@ h6 {
     @apply font-m-poppins font-bold;
 }   
 
+.boton-1 {
+    @apply bg-m-pink border border-transparent text-white transition-all duration-150 hover:text-m-pink hover:bg-white hover:border-m-pink py-2 w-fit rounded-3xl px-12
+}
+.boton-2 {
+    @apply bg-m-pink border border-transparent text-white transition-all duration-150 hover:text-m-pink hover:bg-white hover:border-m-pink py-2 w-fit rounded-lg px-12
+}
+
 .bg-top-mobile-1 {
-    @apply bg-[url('/img/bg-section-top-mobile-1.svg')] md:bg-[url('/img/bg-section-top-desktop-1.svg')] bg-no-repeat bg-cover h-[112px] md:h-[165px]
+    @apply bg-[url('/img/bg-section-top-mobile-1.svg')] md:bg-[url('/img/bg-section-top-desktop-1.svg')] bg-no-repeat bg-cover h-[192px]
 }
 .bg-top-mobile-2 {
-    @apply bg-[url('/img/bg-section-top-mobile-2.svg')] md:bg-[url('/img/bg-section-top-desktop-2.svg')] bg-no-repeat bg-cover h-[112px] md:h-[165px]
+    @apply bg-[url('/img/bg-section-top-mobile-2.svg')] md:bg-[url('/img/bg-section-top-desktop-2.svg')] bg-no-repeat bg-cover h-[192px] 
 }
 .bg-bottom-mobile-1 {
-    @apply bg-[url('/img/bg-section-bottom-mobile-1.svg')] md:bg-[url('/img/bg-section-bottom-desktop-1.svg')] bg-no-repeat bg-cover h-[112px] md:h-[165px]
+    @apply bg-[url('/img/bg-section-bottom-mobile-1.svg')] md:bg-[url('/img/bg-section-bottom-desktop-1.svg')] bg-no-repeat bg-cover h-[175px]
 }
 .bg-bottom-mobile-2 {
-    @apply bg-[url('/img/bg-section-bottom-mobile-2.svg')] md:bg-[url('/img/bg-section-bottom-desktop-2.svg')] bg-no-repeat bg-cover h-[112px] md:h-[165px]
+    @apply bg-[url('/img/bg-section-bottom-mobile-2.svg')] md:bg-[url('/img/bg-section-bottom-desktop-2.svg')] bg-no-repeat bg-cover h-[175px] 
 }
